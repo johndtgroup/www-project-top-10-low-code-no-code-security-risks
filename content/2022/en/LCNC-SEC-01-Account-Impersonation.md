@@ -13,8 +13,7 @@ title: "LCNC-SEC-01: Account Impersonation"
 
 ## The Gist
 
-No-code/Low-code applications can be embedded with a developer account which is used implicitly by any application user. 
-This creates a direct path towards Privilege Escalation, allows an attacker to hide behind another user's identity, and circumvents traditional security controls.
+All applications require user credentials to determine what actions can be taken. This security concern occurs when user credentials are  applied in a way that allows some users to perform actions not originally intended for that person or level.
 
 ## Description
 
